@@ -1,0 +1,245 @@
+body {
+    background: linear-gradient(90deg, rgb(132, 130, 130),rgb(40, 38, 38));
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero-section {
+    background-color: wheat;
+    height: 110px;
+}
+
+.nav {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.nav a {
+    color: #101010;
+    text-decoration: underline;
+    margin-left: 15px;
+    font-size: 17px;
+} 
+
+.nav a:hover {
+    color: #260a8a; 
+}
+.recipe-card {
+    width: 300px; 
+    margin: 40px auto; 
+    gap: 20px;
+    display: grid;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.recipe-card .card-img-top {
+    width: 300px; 
+    height: 250px;
+    object-fit:cover; 
+}
+
+.recipe-card .card-body {
+    padding: 10px; 
+    font-size: 15px; 
+}
+
+.recipe-card .card-title {
+    font-size: 15px; 
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.recipe-card .card-text {
+    font-size: 17px; 
+    color: #000000;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.recipe-card .btn {
+    padding: 10px 15px; 
+    font-size: 13px; 
+    text-align: center;
+    align-items: center;
+    margin-left: 57px;
+}
+
+.recipe-card:hover {
+    transform: scale(1.15); 
+}
+
+.about-section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.about-section h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: wheat;
+    text-align: center;
+    margin: 12px;
+}
+.about-section hr{
+    color: wheat;
+    font-weight: bold;
+}
+
+.btn-get-in-touch {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    background-color: wheat;
+    display:block;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-get-in-touch:hover {
+    color: #455443; 
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.footer {
+    background-color: black;
+    color: wheat;
+    height: 50px;
+    text-align: center;
+    padding: 14px 0;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.container h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.container p {
+    font-size: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #0f0e0e;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-submit {
+    width: 30%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #30a017; 
+    color: white;
+    border: none;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #155d04;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px;      /* Make font smaller for mobile screens */
+    }
+}
+
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    color: #333;
+}
+.back-button:hover {
+    color: #007BFF;
+}
+
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.text-overlay {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 3.0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 600px;
+    margin: 0;
+    white-space: nowrap;
+    overflow:visible;
+    text-align: center;
+}
+
+

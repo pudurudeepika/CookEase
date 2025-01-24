@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dal Tadka</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .recipe-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        header h2 {
+            color: wheat;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+            margin-top: 60px;
+            font-size: 35px;
+            border-radius: 8px;
+            width: 50%;
+            margin-left: 25%;
+            background-color: rgb(36, 128, 33);
+        }
+
+        h2 {
+            color: #f05454;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .ingredients, .procedure {
+            margin-bottom: 25px;
+        }
+
+        ul {
+            list-style: square inside;
+            padding: 0;
+        }
+
+        li {
+            line-height: 1.8;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .recipe-container {
+                width: 95%;
+                padding: 10px;
+            }
+
+            header, footer {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero-section text-center p-3">
+        <h1 class="animate__animated animate__fadeInDown">CookEase</h1>
+        <p class="animate__animated animate__fadeInUp">Making cooking simple and fun!</p>
+        <div class="nav">
+            <a href="/index.html"><i class="fa fa-home"></i>Home</a>
+            <a href="/about.html"><i class="fas fa-info-circle"></i> About</a>
+        </div>
+    </header>
+
+    <header>
+        <h2>Dal Tadka</h2>
+    </header>
+    <div class="recipe-container">
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 cup toor dal (split pigeon peas)</li>
+                <li>1 medium onion, finely chopped</li>
+                <li>2 medium tomatoes, finely chopped</li>
+                <li>2-3 garlic cloves, minced</li>
+                <li>1 teaspoon ginger paste</li>
+                <li>1 green chili, finely chopped</li>
+                <li>1/2 teaspoon turmeric powder</li>
+                <li>1 teaspoon red chili powder</li>
+                <li>1 teaspoon cumin seeds</li>
+                <li>2 tablespoons ghee (clarified butter)</li>
+                <li>1 teaspoon mustard seeds</li>
+                <li>1/4 teaspoon asafoetida (hing)</li>
+                <li>2 dried red chilies</li>
+                <li>1/2 teaspoon garam masala</li>
+                <li>2 tablespoons chopped coriander leaves for garnish</li>
+                <li>Salt to taste</li>
+            </ul>
+        </section>
+
+        <section class="procedure">
+            <h2>Procedure</h2>
+            <ol>
+                <li>Wash the toor dal thoroughly and pressure cook it with 3 cups of water, turmeric powder, and a pinch of salt until soft and mushy.</li>
+                <li>In a pan, heat 1 tablespoon of ghee. Add mustard seeds and let them splutter.</li>
+                <li>Add cumin seeds, asafoetida, and dried red chilies. Sauté for a few seconds.</li>
+                <li>Add chopped onions, green chili, and minced garlic. Cook until onions turn translucent.</li>
+                <li>Mix in chopped tomatoes and cook until the mixture turns soft and mushy.</li>
+                <li>Add red chili powder, garam masala, and cooked dal to the pan. Mix well and simmer for 5 minutes.</li>
+                <li>In a separate small pan, prepare a tempering by heating 1 tablespoon of ghee. Add garlic slices, dried red chili, and cumin seeds. Pour this over the dal.</li>
+                <li>Garnish with fresh coriander leaves. Serve hot with rice or roti.</li>
+            </ol>
+        </section>
+    </div>
+    <button class="back-button" onclick="goBack()"><i class="fas fa-arrow-left"></i></button>
+
+    <footer>
+        <p>© 2025 CookEase | Made with ❤️ for food lovers</p>
+    </footer>
+    <script src="/javascript/script.js"></script>
+
+</body>
+</html>
