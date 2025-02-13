@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
         .container {
-            width: 200px;
-            height: 300px;
+            width: 90%;
+            max-width: 1200px;
             background-color: white;
             margin-bottom: 50px;
             margin-top: 50px;
@@ -29,6 +29,20 @@
             font-weight: bold;
             text-align: center;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .nav {
+                flex-direction: column; 
+            }
+
+            .hero-section h1 {
+                font-size: 24px;
+            }
         }
     </style>
 </head>
