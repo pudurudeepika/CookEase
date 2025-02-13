@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutton Curry Recipe</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .recipe-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        header h2 {
+            color: wheat;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+            margin-top: 60px;
+            font-size:35px;
+            border-radius: 8px;
+            width: 50%;
+            margin-left: 25%;
+            background-color: rgb(138, 23, 33);
+        }
+
+        h2 {
+            color: #f05454;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .ingredients, .procedure {
+            margin-bottom: 25px;
+        }
+
+        ul {
+            list-style: square inside;
+            padding: 0;
+        }
+
+        li {
+            line-height: 1.8;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .recipe-container {
+                width: 95%;
+                padding: 10px;
+            }
+
+            header, footer {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero-section text-center p-3">
+        <h1 class="animate__animated animate__fadeInDown">CookEase</h1>
+        <p class="animate__animated animate__fadeInUp">Making cooking simple and fun!</p>
+        <div class="nav">
+            <a href="/index.html"><i class="fa fa-home"></i> Home</a>
+            <a href="/about.html"><i class="fas fa-info-circle"></i> About</a>
+        </div>
+    </header>
+
+    <header>
+        <h2>Mutton Curry</h2>
+    </header>
+
+    <div class="recipe-container">
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>500g mutton, cut into pieces</li>
+                <li>2 large onions, finely chopped</li>
+                <li>2 tomatoes, pureed</li>
+                <li>2 tablespoons ginger-garlic paste</li>
+                <li>2 green chilies, slit</li>
+                <li>2 tablespoons oil</li>
+                <li>1 teaspoon cumin seeds</li>
+                <li>1/2 teaspoon turmeric powder</li>
+                <li>1 tablespoon red chili powder</li>
+                <li>1 tablespoon coriander powder</li>
+                <li>1 teaspoon garam masala</li>
+                <li>1 teaspoon cumin powder</li>
+                <li>1/2 teaspoon cinnamon powder</li>
+                <li>Salt to taste</li>
+                <li>1 cup yogurt</li>
+                <li>Fresh coriander leaves for garnish</li>
+                <li>2 cups water</li>
+            </ul>
+        </section>
+
+        <section class="procedure">
+            <h2>Procedure</h2>
+            <ol>
+                <li>Heat oil in a pressure cooker or pot and add cumin seeds. Let them splutter.</li>
+                <li>Add chopped onions and sauté until golden brown.</li>
+                <li>Stir in ginger-garlic paste and green chilies. Cook for a minute.</li>
+                <li>Add pureed tomatoes and cook until the oil separates from the masala.</li>
+                <li>Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Cook for 2-3 minutes.</li>
+                <li>Add the mutton pieces and sauté until they turn brown on all sides.</li>
+                <li>Whisk the yogurt and add it to the mutton. Stir to coat the meat evenly.</li>
+                <li>Pour in water and close the lid of the pressure cooker. Cook for 2-3 whistles or for 30 minutes on medium heat in a regular pot, until the mutton is tender and the gravy thickens.</li>
+                <li>Once done, open the lid, sprinkle garam masala, and mix well.</li>
+                <li>Garnish with fresh coriander leaves and serve hot.</li>
+                <li>Enjoy with roti, paratha, or rice!</li>
+            </ol>
+        </section>
+    </div>
+    <button class="back-button" onclick="goBack()"><i class="fas fa-arrow-left"></i></button>
+
+    <footer>
+        <p>© 2025 CookEase | Made with ❤️ for food lovers</p>
+    </footer>
+    <script src="/javascript/script.js"></script>
+
+</body>
+</html>
